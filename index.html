@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css.map" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap-theme.css.map" type="text/css">
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	
 </head>
@@ -78,58 +79,27 @@
 		 <div class="row">
 		 	<h2 class="text-center">Portfolio</h2>
 	   			<div class="col-sm-3">
-			      <img src="img/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive">
+			      	<a href="images/img1.jpg" data-lightbox="gallery"><img src="images/img1.jpg" class=" img-responsive"></a>
 			    </div>
 			    <div class="col-sm-3"> 
-			      <img src="img/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive">
+			     	<a href="images/hero.jpg" data-lightbox="gallery"><img src="images/hero.jpg" class=" img-responsive"></a>
 			    </div>
 			    <div class="col-sm-3"> 
-			      <img src="img/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive">
+			         <a href="images/img1.jpg" data-lightbox="gallery"><img src="images/img1.jpg" class=" img-responsive"></a>
 			    </div>
 			    <div class="col-sm-3">
-			      <img src="img/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive">
+			          <a href="images/img1.jpg" data-lightbox="gallery"><img src="images/img1.jpg" class=" img-responsive"></a>
 			    </div>
 	   </div><!-- End gallery -->
 	</section>
 	
-	<!-- Modal -->
-	<div id="myModal" class="modal">
-	  <span class="close cursor" onclick="closeModal()">&times;</span>
-	  <div class="modal-content">
-	
-	    <div class="mySlides">
-	      <div class="numbertext">1 / 4</div>
-	        <img src="img/img1.jpg" class="img-responsive" style="width:100%">
-	    </div>
-	
-	    <div class="mySlides">
-	      <div class="numbertext">2 / 4</div>
-	        <img src="img/img1.jpg" class="img-responsive" style="width:100%">
-	    </div>
-	
-	    <div class="mySlides">
-	      <div class="numbertext">3 / 4</div>
-	        <img src="img/img1.jpg" class="img-responsive" style="width:100%">
-	    </div>
-	
-	    <div class="mySlides">
-	      <div class="numbertext">4 / 4</div>
-	        <img src="img/img1.jpg" class="img-responsive" style="width:100%">
-	    </div>
-	
-	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-	
-	  </div>
-	</div>
-	<!-- End Modal -->
+
 	
 	<section class="container-fluid" id="contact">
 		<div class="row">
 			<h2 class="text-center">Contact</h2>
 			<p class="lead text-center"><em>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</em></p>
-		
-		<div class="col-md-6">
+		<div class="col-md-6 top-padding">
 			<div class="row contact-section">
 				<div class="col-md-8 col-md-offset-2">
 					<a href="tel:1-609-731-8362"><span class="glyphicon glyphicon-earphone"></span><p class="lead text-center">(609) 731-8362</p></a><br>
@@ -138,8 +108,8 @@
 			</div>
 		</div>
 		
-		<div class="col-md-6">
-	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:700px;'><div id='gmap_canvas' style='height:300px;width:700px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Quickly generate and embed a Google Map on your site!									Click here									Visit our website</a></small></div><div><small><a href="https://www.promocode.com.ph/">promocode food blog awards 2017</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:7,center:new google.maps.LatLng(40.3028533,-74.73370690000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.3028533,-74.73370690000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Curro Tiling</strong><br>Mercer County, NJ, USA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		<div class="col-md-6 top-padding">
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAFVkoCXBY_YC0SEfcc0ssW4nzmpoSUYvk'></script><div style='overflow:hidden;height:300px;width:auto;'><div id='gmap_canvas' style='height:300px;width:700px;'></div><style>#gmap_canvas images{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:9,center:new google.maps.LatLng(40.0583238,-74.4056612),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.0583238,-74.4056612)});infowindow = new google.maps.InfoWindow({content:'<strong>Curro Tiling</strong><br>New Jersey, USA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 		</div>
 		
 		</div>
@@ -153,15 +123,9 @@
 	  	</div>
 	  </div>
 	</footer>
-
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
-
-  
-	   
-	<div class="col-md-3 contact-info">
-			
-			</div>
