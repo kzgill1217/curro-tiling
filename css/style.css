@@ -85,6 +85,6 @@ section h3 {
     padding-top: 30px;
 }
 
-.img-responsive {
-    margin-bottom: 20px;
+.col-sm-3 img {
+    opacity: .7;
 }
