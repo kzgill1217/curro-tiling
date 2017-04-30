@@ -84,3 +84,7 @@ section h3 {
 .top-padding {
     padding-top: 30px;
 }
+
+.img-responsive {
+    margin-bottom: 20px;
+}
