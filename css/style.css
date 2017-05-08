@@ -12,7 +12,7 @@ body {
 .navbar li { 
     color: #000;
     font-weight: bold;
-} 
+}
 
 header {
     background-image: url(../images/hero.jpg);
@@ -98,4 +98,12 @@ section h3 {
 footer {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.container-fluid img { 
+    padding-top: 50px;
+    width: 90%;
+    max-height: 100vh; 
+    margin: 0 auto;
+    background-color: white;
 }
