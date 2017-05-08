@@ -125,4 +125,8 @@ footer {
     margin: 0 auto;
     background-color: white;
     }
+    
+   .navbar {
+       margin-bottom: 20px;
+   }
 }
